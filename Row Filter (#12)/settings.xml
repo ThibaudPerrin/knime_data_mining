@@ -6,21 +6,21 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="end_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<config key="rowFilter">
+<entry key="RowFilter_TypeID" type="xstring" value="StringComp_RowFilter"/>
+<entry key="ColumnName" type="xstring" value="Installs"/>
+<entry key="include" type="xboolean" value="true"/>
+<entry key="deepFiltering" type="xboolean" value="false"/>
+<entry key="CaseSensitive" type="xboolean" value="false"/>
+<entry key="Pattern" type="xstring" value="^([0-9]|[,]|[+])*$"/>
+<entry key="hasWildCards" type="xboolean" value="false"/>
+<entry key="isRegExpr" type="xboolean" value="true"/>
 </config>
-<entry key="end" type="xint" value="2500"/>
-<config key="max_nominal_values_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="max_nominal_values" type="xint" value="60"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory"/>
-<entry key="node-name" type="xstring" value="Scatter Plot (local)"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.row.RowFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Row Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -30,12 +30,20 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="4.0.2.v201909300912"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Scatter Plot (local)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="name" type="xstring" value="Row Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 9999, Cols: 15"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e7221af5-7e66-4c53-acf6-0ecddb49f1a9"/>
 </config>
 </config>

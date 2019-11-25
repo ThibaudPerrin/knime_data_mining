@@ -6,26 +6,38 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="columnSettings"/>
-<config key="dataTypeSettings">
-<config key="org.knime.core.data.def.StringCell">
-<entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
-<config key="settings"/>
+<config key="include_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
-<config key="settings"/>
+<config key="include">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Rating (rounded)"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Mean(Installs (rounded))"/>
+<entry key="1" type="xstring" value="Mean(Installs)"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+</config>
 </config>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="The current settings use missing value handling methods that cannot be represented in PMML 4.2"/>
-</config>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
-<entry key="node-name" type="xstring" value="Missing Value"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Number To String"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -35,7 +47,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="4.0.2.v201909300912"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Missing Value"/>
+<entry key="name" type="xstring" value="Number To String"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -43,21 +55,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 15"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
-<entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: "/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e78442d3-e766-48fd-834b-a140424c27ce"/>
+<entry key="file_store_id" type="xstring" value="a8e78cc0-c841-4eb7-aa59-62d84b33f8f0"/>
 </config>
 </config>

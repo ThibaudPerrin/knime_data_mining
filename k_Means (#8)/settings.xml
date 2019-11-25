@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="nrClusters" type="xint" value="3"/>
+<entry key="nrClusters" type="xint" value="5"/>
 <config key="maxNrIterations_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -22,10 +22,16 @@
 </config>
 <config key="cfgColmns">
 <config key="InclList">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Rating (rounded)"/>
+<entry key="1" type="xstring" value="Installs (rounded)"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Rating"/>
+<entry key="1" type="xstring" value="Reviews"/>
+<entry key="2" type="xstring" value="Installs"/>
+<entry key="3" type="xstring" value="Col14"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -36,7 +42,7 @@
 <entry key="enableHilite" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2"/>
 <entry key="node-name" type="xstring" value="k-Means"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -49,24 +55,35 @@
 <entry key="node-feature-version" type="xstring" value="4.0.2.v201909300912"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="k-Means"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 2"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 <config key="port_3">
 <entry key="index" type="xint" value="3"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+<entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: ClusteringModel"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8ce6bc52-4c0a-4bf1-979c-b9e4ffcde9b4"/>
 </config>
 </config>
