@@ -47,7 +47,7 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Distance Matrix Extension"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.distmatrix"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.2.v201909260824"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201911251600"/>
 <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
 <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
 <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
@@ -69,6 +69,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="29e309bc-a304-4b7e-99bc-e9a638af01ec"/>
 </config>
 </config>

@@ -208,11 +208,11 @@
 <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.dynamic.js.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.1.v201908131226"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201912031419"/>
 <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.0.2.v201909250755"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201912041458"/>
 <config key="factory_settings">
 <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:barChart"/>
 </config>
@@ -232,6 +232,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="cd5d90d2-ffef-4d4c-8025-4d0ee5741b02"/>
 </config>
 </config>
