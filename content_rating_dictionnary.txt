@@ -1,0 +1,5 @@
+5,Teen
+0,Everyone
+10,Everyone 10+
+17,Mature 17+
+18,Adults only 18+
