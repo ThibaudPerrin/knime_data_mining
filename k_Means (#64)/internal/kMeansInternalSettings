@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="2"/>
+<entry key="ignoredColumns" type="xint" value="1"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xint" value="351"/>
+<entry key="1" type="xint" value="520"/>
+<entry key="2" type="xint" value="665"/>
+<entry key="3" type="xint" value="509"/>
+<entry key="4" type="xint" value="543"/>
+<entry key="5" type="xint" value="336"/>
+<entry key="6" type="xint" value="578"/>
+<entry key="7" type="xint" value="578"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="67.01424501424502"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="24.751923076923077"/>
+</config>
+<config key="kMeansCluster2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="4.053684210526316"/>
+</config>
+<config key="kMeansCluster3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="35.15717092337918"/>
+</config>
+<config key="kMeansCluster4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="48.79373848987109"/>
+</config>
+<config key="kMeansCluster5">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="90.38392857142857"/>
+</config>
+<config key="kMeansCluster6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="9.439446366781999"/>
+</config>
+<config key="kMeansCluster7">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="16.283737024221452"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Size"/>
+<entry key="1" type="xstring" isnull="true" value=""/>
+</config>
+</config>

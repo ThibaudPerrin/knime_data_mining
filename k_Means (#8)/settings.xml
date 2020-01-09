@@ -11,6 +11,17 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="nrClusters" type="xint" value="5"/>
+<config key="centroid_initialization_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="centroid_initialization" type="xstring" value="FIRST_ROWS"/>
+<config key="centroid_seeds_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long_seed"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="centroid_seeds" type="xlong" value="0"/>
+<entry key="centroid_seeds_BOOL" type="xboolean" value="true"/>
 <config key="maxNrIterations_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -84,6 +95,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8ce6bc52-4c0a-4bf1-979c-b9e4ffcde9b4"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

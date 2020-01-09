@@ -25,6 +25,7 @@
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="Mean(Installs (rounded))"/>
@@ -38,16 +39,17 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="782.8437500000001"/>
+<entry key="DoubleCell" type="xdouble" value="957.7777777777777"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.3040843654008368E7"/>
+<entry key="DoubleCell" type="xdouble" value="2.0918095584553543E7"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 </config>

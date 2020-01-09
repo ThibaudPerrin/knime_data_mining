@@ -41,7 +41,7 @@
 <entry key="inView" type="xboolean" value="true"/>
 <config key="tableIds">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="0cbf441c-6c86-44dd-a633-26c65d6362f2"/>
+<entry key="0" type="xstring" value="f487b076-8946-4e57-88ea-f0b0e51e82ef"/>
 <entry key="1" type="xstring" isnull="true" value=""/>
 </config>
 <config key="variables">
@@ -49,7 +49,7 @@
 <entry key="mapClass" type="xstring" value="string"/>
 <entry key="key_0" type="xstring" value="knime.workspace"/>
 <entry key="class_0" type="xstring" value="java.lang.String"/>
-<entry key="value_0" type="xstring" value="D:\Users\Thibaud\knime-workspace"/>
+<entry key="value_0" type="xstring" value="C:\Users\dlrar\knime-workspace"/>
 </config>
 <config key="binaryFiles">
 <entry key="numSettings" type="xint" value="0"/>
@@ -135,8 +135,8 @@
 <config key="inObjects">
 <entry key="numSettings" type="xint" value="2"/>
 <config key="inObject_0">
-<entry key="className" type="xstring" value="org.knime.dynamic.js.base.grouped.GroupedProcessor$GroupingResult"/>
-<entry key="jsonValue" type="xstring" value="{&quot;table&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTable&quot;,&quot;id&quot;:&quot;e80f0ab3-65ba-4e41-98d6-84ca59a4bc4f&quot;,&quot;spec&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTableSpec&quot;,&quot;extensionNames&quot;:[],&quot;containsMissingValues&quot;:[false,false],&quot;rowColorValues&quot;:[&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;],&quot;extensionTypes&quot;:[],&quot;colNames&quot;:[&quot;Rating (rounded)&quot;,&quot;Mean(Installs (rounded))&quot;],&quot;possibleValues&quot;:[[&quot;1.0&quot;,&quot;2.0&quot;,&quot;3.0&quot;,&quot;4.0&quot;,&quot;5.0&quot;],null],&quot;numColumns&quot;:2,&quot;filterIds&quot;:[null,null],&quot;knimeTypes&quot;:[&quot;String&quot;,&quot;Number (double)&quot;],&quot;colorModels&quot;:[],&quot;colTypes&quot;:[&quot;string&quot;,&quot;number&quot;],&quot;numRows&quot;:5,&quot;minValues&quot;:[&quot;1.0&quot;,782.8437500000001],&quot;maxValues&quot;:[&quot;5.0&quot;,1.3040843654008368E7],&quot;rowSizeValues&quot;:null,&quot;hiddenColumns&quot;:[],&quot;numExtensions&quot;:0},&quot;rows&quot;:[{&quot;data&quot;:[&quot;1.0&quot;,782.8437500000001],&quot;rowKey&quot;:&quot;Row0&quot;},{&quot;data&quot;:[&quot;2.0&quot;,181963.9361702127],&quot;rowKey&quot;:&quot;Row1&quot;},{&quot;data&quot;:[&quot;3.0&quot;,610967.0903361344],&quot;rowKey&quot;:&quot;Row2&quot;},{&quot;data&quot;:[&quot;4.0&quot;,1.3040843654008368E7],&quot;rowKey&quot;:&quot;Row3&quot;},{&quot;data&quot;:[&quot;5.0&quot;,6729201.279519688],&quot;rowKey&quot;:&quot;Row4&quot;}],&quot;fragment&quot;:false,&quot;filtered&quot;:false,&quot;totalFilteredRows&quot;:0,&quot;fragmentFirstRowIndex&quot;:0,&quot;dataHash&quot;:null,&quot;totalRows&quot;:0},&quot;uuid&quot;:&quot;87caca9e-e09b-435e-ba13-2edb5712d0e1&quot;,&quot;translator&quot;:{&quot;mapping&quot;:{&quot;Row0&quot;:[&quot;Row0&quot;],&quot;Row1&quot;:[&quot;Row1&quot;],&quot;Row4&quot;:[&quot;Row4&quot;],&quot;Row2&quot;:[&quot;Row2&quot;],&quot;Row3&quot;:[&quot;Row3&quot;]},&quot;forward&quot;:false,&quot;sourceID&quot;:null,&quot;targetIDs&quot;:null}}"/>
+<entry key="className" type="xstring" value="com.fasterxml.jackson.databind.node.ObjectNode"/>
+<entry key="jsonValue" type="xstring" value="{&quot;table&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTable&quot;,&quot;id&quot;:&quot;f8a57c8e-4eac-4368-bb6d-c878d6a10ad7&quot;,&quot;fragment&quot;:false,&quot;rows&quot;:[{&quot;data&quot;:[&quot;1.0&quot;,957.7777777777777],&quot;rowKey&quot;:&quot;Row0&quot;},{&quot;data&quot;:[&quot;2.0&quot;,75502.38095238095],&quot;rowKey&quot;:&quot;Row1&quot;},{&quot;data&quot;:[&quot;3.0&quot;,731760.2824858754],&quot;rowKey&quot;:&quot;Row2&quot;},{&quot;data&quot;:[&quot;4.0&quot;,2.0918095584553543E7],&quot;rowKey&quot;:&quot;Row3&quot;},{&quot;data&quot;:[&quot;5.0&quot;,1.0588333481249979E7],&quot;rowKey&quot;:&quot;Row4&quot;}],&quot;filtered&quot;:false,&quot;totalRows&quot;:0,&quot;dataHash&quot;:null,&quot;spec&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTableSpec&quot;,&quot;maxValues&quot;:[&quot;5.0&quot;,2.0918095584553543E7],&quot;minValues&quot;:[&quot;1.0&quot;,957.7777777777777],&quot;rowSizeValues&quot;:null,&quot;hiddenColumns&quot;:[],&quot;numExtensions&quot;:0,&quot;numColumns&quot;:2,&quot;knimeTypes&quot;:[&quot;String&quot;,&quot;Number (double)&quot;],&quot;colNames&quot;:[&quot;Rating (rounded)&quot;,&quot;Mean(Installs (rounded))&quot;],&quot;colTypes&quot;:[&quot;string&quot;,&quot;number&quot;],&quot;numRows&quot;:5,&quot;filterIds&quot;:[null,null],&quot;containsMissingValues&quot;:[false,false],&quot;extensionTypes&quot;:[],&quot;rowColorValues&quot;:[&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;],&quot;extensionNames&quot;:[],&quot;possibleValues&quot;:[[&quot;1.0&quot;,&quot;2.0&quot;,&quot;3.0&quot;,&quot;4.0&quot;,&quot;5.0&quot;],null],&quot;colorModels&quot;:[]},&quot;fragmentFirstRowIndex&quot;:0,&quot;totalFilteredRows&quot;:0},&quot;uuid&quot;:&quot;eb699628-c689-45e0-948c-a8f6f493fb53&quot;,&quot;translator&quot;:{&quot;mapping&quot;:{&quot;Row0&quot;:[&quot;Row0&quot;],&quot;Row1&quot;:[&quot;Row1&quot;],&quot;Row4&quot;:[&quot;Row4&quot;],&quot;Row2&quot;:[&quot;Row2&quot;],&quot;Row3&quot;:[&quot;Row3&quot;]},&quot;sourceID&quot;:null,&quot;targetIDs&quot;:null,&quot;forward&quot;:false}}"/>
 </config>
 <config key="inObject_1">
 <entry key="jsonValue" type="xstring" isnull="true" value=""/>
