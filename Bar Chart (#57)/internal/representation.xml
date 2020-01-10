@@ -41,7 +41,7 @@
 <entry key="inView" type="xboolean" value="true"/>
 <config key="tableIds">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="bb7138ca-e928-4f1b-91f4-811c1ff772e9"/>
+<entry key="0" type="xstring" value="f68357a3-31ad-44b1-b308-82ea6fd6a053"/>
 <entry key="1" type="xstring" isnull="true" value=""/>
 </config>
 <config key="variables">
@@ -49,7 +49,7 @@
 <entry key="mapClass" type="xstring" value="string"/>
 <entry key="key_0" type="xstring" value="knime.workspace"/>
 <entry key="class_0" type="xstring" value="java.lang.String"/>
-<entry key="value_0" type="xstring" value="C:\Users\dlrar\knime-workspace"/>
+<entry key="value_0" type="xstring" value="C:\Users\thiba\knime-workspace"/>
 </config>
 <config key="binaryFiles">
 <entry key="numSettings" type="xint" value="0"/>
@@ -137,12 +137,12 @@
 <entry key="numSettings" type="xint" value="2"/>
 <config key="inObject_0">
 <entry key="className" type="xstring" value="org.knime.dynamic.js.base.grouped.GroupedProcessor$GroupingResult"/>
-<entry key="jsonValue" type="xstring" value="{&quot;table&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTable&quot;,&quot;id&quot;:&quot;1d17559e-88fe-4ee4-b4ff-194707bbba77&quot;,&quot;filtered&quot;:false,&quot;totalRows&quot;:0,&quot;dataHash&quot;:null,&quot;fragmentFirstRowIndex&quot;:0,&quot;totalFilteredRows&quot;:0,&quot;fragment&quot;:false,&quot;rows&quot;:[{&quot;data&quot;:[&quot;0.0&quot;,1.5610972634936947E7,3887.0],&quot;rowKey&quot;:&quot;Row0&quot;},{&quot;data&quot;:[&quot;5.0&quot;,2.994686739336495E7,633.0],&quot;rowKey&quot;:&quot;Row1&quot;},{&quot;data&quot;:[&quot;10.0&quot;,1.5815001091549309E7,284.0],&quot;rowKey&quot;:&quot;Row2&quot;},{&quot;data&quot;:[&quot;17.0&quot;,1.2506609766839368E7,193.0],&quot;rowKey&quot;:&quot;Row3&quot;},{&quot;data&quot;:[&quot;18.0&quot;,683333.3333333333,3.0],&quot;rowKey&quot;:&quot;Row4&quot;}],&quot;spec&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTableSpec&quot;,&quot;minValues&quot;:[&quot;0.0&quot;,683333.3333333333,3.0],&quot;maxValues&quot;:[&quot;5.0&quot;,2.994686739336495E7,3887.0],&quot;rowSizeValues&quot;:null,&quot;hiddenColumns&quot;:[],&quot;numColumns&quot;:3,&quot;colNames&quot;:[&quot;Content Rating&quot;,&quot;Mean(Installs)&quot;,&quot;Sum(number)&quot;],&quot;knimeTypes&quot;:[&quot;String&quot;,&quot;Number (double)&quot;,&quot;Number (double)&quot;],&quot;numExtensions&quot;:0,&quot;colTypes&quot;:[&quot;string&quot;,&quot;number&quot;,&quot;number&quot;],&quot;numRows&quot;:5,&quot;extensionTypes&quot;:[],&quot;extensionNames&quot;:[],&quot;possibleValues&quot;:[[&quot;0.0&quot;,&quot;5.0&quot;,&quot;10.0&quot;,&quot;17.0&quot;,&quot;18.0&quot;],null,null],&quot;containsMissingValues&quot;:[false,false,false],&quot;rowColorValues&quot;:[&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;],&quot;colorModels&quot;:[],&quot;filterIds&quot;:[null,null,null]}},&quot;translator&quot;:{&quot;mapping&quot;:{&quot;Row0&quot;:[&quot;Row0&quot;],&quot;Row1&quot;:[&quot;Row1&quot;],&quot;Row4&quot;:[&quot;Row4&quot;],&quot;Row2&quot;:[&quot;Row2&quot;],&quot;Row3&quot;:[&quot;Row3&quot;]},&quot;forward&quot;:false,&quot;sourceID&quot;:null,&quot;targetIDs&quot;:null},&quot;uuid&quot;:&quot;2277236e-127e-45dd-a885-586eae6a9e2d&quot;}"/>
+<entry key="jsonValue" type="xstring" value="{&quot;table&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTable&quot;,&quot;id&quot;:&quot;eb4849e5-256c-42dd-98f0-89328cfc393a&quot;,&quot;spec&quot;:{&quot;@class&quot;:&quot;org.knime.js.core.JSONDataTableSpec&quot;,&quot;numRows&quot;:7,&quot;numColumns&quot;:3,&quot;colorModels&quot;:[],&quot;colTypes&quot;:[&quot;string&quot;,&quot;number&quot;,&quot;number&quot;],&quot;knimeTypes&quot;:[&quot;String&quot;,&quot;Number (double)&quot;,&quot;Number (double)&quot;],&quot;filterIds&quot;:[null,null,null],&quot;rowColorValues&quot;:[&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;,&quot;#404040&quot;],&quot;containsMissingValues&quot;:[true,true,false],&quot;hiddenColumns&quot;:[],&quot;rowSizeValues&quot;:null,&quot;numExtensions&quot;:0,&quot;colNames&quot;:[&quot;Content Rating&quot;,&quot;Mean(Installs)&quot;,&quot;Sum(number)&quot;],&quot;maxValues&quot;:[&quot;5.0&quot;,1818391.3390301762,241590.0],&quot;minValues&quot;:[&quot;0.0&quot;,72364.53577106063,1.0],&quot;possibleValues&quot;:[[&quot;0.0&quot;,&quot;5.0&quot;,&quot;10.0&quot;,&quot;17.0&quot;,&quot;18.0&quot;,&quot;3702.0&quot;],null,null],&quot;extensionTypes&quot;:[],&quot;extensionNames&quot;:[]},&quot;fragment&quot;:false,&quot;rows&quot;:[{&quot;data&quot;:[null,72364.53577106063,38.0],&quot;rowKey&quot;:&quot;Row0&quot;},{&quot;data&quot;:[&quot;0.0&quot;,529075.6538970855,241590.0],&quot;rowKey&quot;:&quot;Row1&quot;},{&quot;data&quot;:[&quot;5.0&quot;,1818391.3390301762,17261.0],&quot;rowKey&quot;:&quot;Row2&quot;},{&quot;data&quot;:[&quot;10.0&quot;,1720585.4627762306,4661.0],&quot;rowKey&quot;:&quot;Row3&quot;},{&quot;data&quot;:[&quot;17.0&quot;,1134544.8122671251,3489.0],&quot;rowKey&quot;:&quot;Row4&quot;},{&quot;data&quot;:[&quot;18.0&quot;,267675.8333333333,12.0],&quot;rowKey&quot;:&quot;Row5&quot;},{&quot;data&quot;:[&quot;3702.0&quot;,null,1.0],&quot;rowKey&quot;:&quot;Row6&quot;}],&quot;dataHash&quot;:null,&quot;filtered&quot;:false,&quot;fragmentFirstRowIndex&quot;:0,&quot;totalFilteredRows&quot;:0,&quot;totalRows&quot;:0},&quot;uuid&quot;:&quot;7cd9c150-1f3e-48ce-af6e-413ad17e9161&quot;,&quot;translator&quot;:{&quot;mapping&quot;:{&quot;Row0&quot;:[&quot;Row0&quot;],&quot;Row1&quot;:[&quot;Row1&quot;],&quot;Row6&quot;:[&quot;Row6&quot;],&quot;Row4&quot;:[&quot;Row4&quot;],&quot;Row5&quot;:[&quot;Row5&quot;],&quot;Row2&quot;:[&quot;Row2&quot;],&quot;Row3&quot;:[&quot;Row3&quot;]},&quot;targetIDs&quot;:null,&quot;sourceID&quot;:null,&quot;forward&quot;:false}}"/>
 </config>
 <config key="inObject_1">
 <entry key="jsonValue" type="xstring" isnull="true" value=""/>
 </config>
 </config>
-<entry key="warnMessage" type="xstring" value=""/>
+<entry key="warnMessage" type="xstring" value="The following data columns have missing values, which were ignored during the aggregation:%%00010    Mean(Installs) - 1 missing value(s)"/>
 <entry key="errorMessage" type="xstring" value=""/>
 </config>
