@@ -12,7 +12,7 @@
 <entry key="include" type="xboolean" value="true"/>
 <entry key="deepFiltering" type="xboolean" value="false"/>
 <entry key="CaseSensitive" type="xboolean" value="false"/>
-<entry key="Pattern" type="xstring" value="^(cluster_1)*$"/>
+<entry key="Pattern" type="xstring" value="^((cluster_0)|(cluster_3))*$"/>
 <entry key="hasWildCards" type="xboolean" value="false"/>
 <entry key="isRegExpr" type="xboolean" value="true"/>
 </config>
@@ -38,12 +38,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 62, Cols: 16"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6322, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6997676b-fda3-4928-acf3-c487c6308a5f"/>
+<entry key="file_store_id" type="xstring" value="f4d32549-7157-4ee0-a38b-a99b63a0f279"/>
 </config>
 </config>
