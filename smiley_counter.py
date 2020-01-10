@@ -32,8 +32,8 @@ def analyze_smileys(text):
            count_smileys(['UPDATE:'], text)
 
 
-with open('googleplaystore_user_reviews.csv') as read_file:
-    with open('googleplaystore_user_reviews_with_smiley.csv', mode='w+') as writ_file:
+with open('data/googleplaystore_user_reviews.csv') as read_file:
+    with open('data/googleplaystore_user_reviews_with_smiley.csv', mode='w+') as writ_file:
         csv_reader = csv.reader(read_file, delimiter=',', quotechar='"', doublequote=True,  quoting=csv.QUOTE_MINIMAL)
         csv_writer = csv.writer(writ_file, delimiter=',', quotechar='"', doublequote=True, quoting=csv.QUOTE_MINIMAL)
         is_first_row = True
